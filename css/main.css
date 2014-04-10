@@ -1,0 +1,183 @@
+/*************************** STARS ****************************/
+#stars {
+	background: #425169 url('../img/stars.gif') top center;
+	width: 100%;
+	height: 8000px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+/*************************** IMAGES ****************************/
+#images {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 200;
+}
+
+#images img {
+	padding-top: 50px;
+}
+
+#img-new-block {
+	position: absolute;
+	top: 1500px;
+	left: 50%;
+	height: 350px;
+	width: 500px;
+}
+
+#img-cse-ise {
+	position: absolute;
+	top: 3000px;
+	left: 50%;
+	height: 350px;
+	width: 500px;
+}
+
+#img-campus {
+	position: absolute;
+	top: 4500px;
+	left: 50%;
+	height: 350px;
+	width: 500px;
+}
+
+#developers img {
+	width: 200px;
+	height: 200px;
+}
+
+.img-dev {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 1s ease-in-out;
+	-webkit-backface-visibility: hidden;
+}
+
+
+
+.card-container {
+	height: 150px;
+	perspective: 600;
+	position: relative;
+	width: 150px;
+	margin-right: 50px;
+}
+
+.card {
+	height: 100%;
+	position: absolute;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: all 1s ease-in-out;
+	width: 100%;
+}
+
+.card:hover {
+	-webkit-transform:	rotateY(180deg);
+}
+
+.card .side {
+  -webkit-backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.card .back {
+  -webkit-transform: rotateY(180deg);
+}
+
+.back {
+	margin-top: 50%;
+	font-size: 16px;
+}
+/*************************** CONTENT ****************************/
+#content {
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	z-index: 300;	
+}
+
+#content article {
+	padding-top: 50px;
+	width: 350px;
+}
+
+#content article h2 {
+	color: #b2c1cd;
+	font-size: 34px;
+	margin-bottom: 0;
+}
+
+#content article#home {
+	width: 960px;
+}
+
+#new-block {
+	position: absolute;
+	top: 2775px;
+}
+
+#cse-ise {
+	position: absolute;
+	top: 5775px;
+}
+
+#campus {
+	position: absolute;
+	top: 8775px;
+}
+
+#developers {
+	position: absolute;
+	top: 11775px;
+	padding-bottom: 800px;
+}
+
+#developers h2 {
+	padding-bottom: 30px;
+}
+
+/*************************** MVIT-LOGO ****************************/
+#mvit {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	z-index: 900;
+}
+/*************************** NAVIGATION ****************************/
+#main-nav {
+	background-color: #303d50;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+#main-nav ul {
+	width: 960px;
+	margin: 0 auto;
+	height: 25px;
+	padding-top: 10px;
+}
+
+#main-nav ul li {
+	float: left;
+	height: 30px;
+	width: 160px;
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#main-nav ul li a {
+	color :#f1ecb9;
+	font-weight: bold;
+	text-decoration: none;
+}
